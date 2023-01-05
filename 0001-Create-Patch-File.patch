@@ -1,0 +1,267 @@
+From 9aa5d19a7fc6007bc844086f6aaaa242fd702520 Mon Sep 17 00:00:00 2001
+From: Devashish Sharma <devashishsharma260@gmail.com>
+Date: Thu, 5 Jan 2023 19:02:48 +0530
+Subject: [PATCH] Create Patch File
+
+---
+ .idea/.gitignore                              |   3 ++
+ .../inspectionProfiles/profiles_settings.xml  |   6 +++
+ .idea/jpmc-task-1.iml                         |  12 ++++++
+ .idea/misc.xml                                |   7 +++
+ .idea/modules.xml                             |   8 ++++
+ .idea/vcs.xml                                 |   6 +++
+ __pycache__/client.cpython-311.pyc            | Bin 0 -> 1893 bytes
+ __pycache__/clientTest.cpython-311.pyc        | Bin 0 -> 3270 bytes
+ client.py                                     |  10 +++--
+ clientTest.py                                 |  40 ++++++++++++++++++
+ 10 files changed, 89 insertions(+), 3 deletions(-)
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/inspectionProfiles/profiles_settings.xml
+ create mode 100644 .idea/jpmc-task-1.iml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/vcs.xml
+ create mode 100644 __pycache__/client.cpython-311.pyc
+ create mode 100644 __pycache__/clientTest.cpython-311.pyc
+ create mode 100644 clientTest.py
+
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+index 0000000..26d3352
+--- /dev/null
++++ b/.idea/.gitignore
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+index 0000000..105ce2d
+--- /dev/null
++++ b/.idea/inspectionProfiles/profiles_settings.xml
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+diff --git a/.idea/jpmc-task-1.iml b/.idea/jpmc-task-1.iml
+new file mode 100644
+index 0000000..b5ad51a
+--- /dev/null
++++ b/.idea/jpmc-task-1.iml
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="jdk" jdkName="Python 3.11" jdkType="Python SDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++  <component name="PyDocumentationSettings">
++    <option name="format" value="PLAIN" />
++    <option name="myDocStringFormat" value="Plain" />
++  </component>
++</module>
+\ No newline at end of file
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+index 0000000..8010bf9
+--- /dev/null
++++ b/.idea/misc.xml
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+index 0000000..b31b630
+--- /dev/null
++++ b/.idea/modules.xml
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/jpmc-task-1.iml" filepath="$PROJECT_DIR$/.idea/jpmc-task-1.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+index 0000000..35eb1dd
+--- /dev/null
++++ b/.idea/vcs.xml
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/__pycache__/client.cpython-311.pyc b/__pycache__/client.cpython-311.pyc
+new file mode 100644
+index 0000000000000000000000000000000000000000..146df849f538f20de12ba86494aa96a3aa1b9bcc
+GIT binary patch
+literal 1893
+zcmaJ>O>7fK6rS<^cpckG9Fjm1w_RGL#gzPkC}|Xm0&yx1L<zKrtWvCvX961>ui4$S
+zVw*@-)q{~ZxDpbUN~IhS1#v-D1sqd}OM9s|vWhiQrAR$-vqVpv`eq%+2~wG#x9`oo
+zdGp@)-t5oOXbXb&@Xsgd-$Mxf!-YnRZZog`!U)|#1QDD;TK$VP?8^a7AOTGzf+i91
+zd!)%k0ve<Wk*@{#dFzh=q9K?qRJsp#9>J`)z0xH5>Zuk6J+u^QXi#CP;R9N4ZLIG8
+zQgOX)x7^^t4qj^B1j~;aTWIgSd!_aE9kpG|{kNRgVj*N8t%JrOf+1}m+$__5d#%ok
+z2x*;Km)5QAr~7FK?HmV-pm~4<Y3GlaD6|V`h;{>Qq5FY`e+uojfzhpD|3n06kam!0
+z&yI&6wKk>ufcqmKd#>Qh=#7ZM(i4I&KsGO+MB7WQH0>U|>NvTvp`nbK)-zX4+Zh`j
+z9vvRKzCx`VrwnrP+co1~z%#vrDV&0+kO1@5T_AT*2(5z6rXOqA*`*D8f#x0&n*824
+z*8*>x5}TTDIVG$HRs|RQAd(wKXiZ$jd}UQ!6d_94J)zE6CRs^SRnKHp=PFgRloCqR
+zul39dwN=Mduh1;DbO$t4qC0xdG_sD$B-=65*I3XobEyS`FezslX<C<c``SwmbOJMJ
+zF=OgZLSoYO71N;>$A*RAK&q}E0^K@mK|+u%0a1B-ePD8Iekr${9&kWqU}Qd>F=*Bq
+z%-vv-E7X|;PiD9$7O#JmAJu^5(Uv$~jl_x{-I~rP|8DOp($d*V_lN7>RJw<}_TftV
+zaQ^K7ELWr5#T#B!T|ekWKFBAl;r3#pH1|L%hX=~yz$>th(mUk?0_XiSzYC0?W=!z*
+z;|`F(1xWiU=AZ-6g8RPuIdxRP(J)nWQT3xw>8hS3+x&uRaf{OrQ6j*C+xrb>!RC9a
+zYVmi^6ae5nw`6sKco?Sr4v>2A!PX-F&ds}3rL`be!yUyFH&2ztUW@+^n375@>qa(}
+za)YxxA4GLSs_v+VAR}Y0d_)DT$6Vz|-KVkFIN>V(O=`c*go)E<m@t`~O7t*s$u_f0
+zw!nXLnYFH1nT)Y8Xi<0=w!`GQ%%s^bljr9cp7yikd&^zO>dQ2hVxj>B!6dM8g)*FC
+z5|j$DS+HRx2v*D-g=-c~Ygu=gXi=Ro*{>v<$v#H5#edX(U0HxNviM)puO+`Ep+I7M
+zfk*Fy_gWcWhJw$~&#aGOjlV=Y3$!L+jBAGxj^x9<S5Y+Y_bTctH%3iHp(A+-K9Z8h
+zH93d}YiNgbO1Q6vc1Q;jBL#O;=qU?5ThUnIi(-GVzl47{bo<cF%eOAqP>Xa1*J%M)
+zV|~TW+r6c!yVEb?M>pd~A0K}@{>%7AbVGg~{jKeJn|Exca%{$n&sO5IFX9(B;}^a7
+zrAqvg7n`fZ<_hwba;DlAgN%294?>85Wljsp>d48*@n_T<nXHUVdXd3GviNDqc+get
+zeXlT8Jbv>WJeNYUkbJhn`-Z`Lc~;vV^Ln{HIu^W0x)Mp3{jsG)3sPaJG+G*6pL%fo
+p-nqx0JnR4Uq}Ml5>6`FcCp_hJMLAveN392my?{YYYzFM-<3HNB(VGAO
+
+literal 0
+HcmV?d00001
+
+diff --git a/__pycache__/clientTest.cpython-311.pyc b/__pycache__/clientTest.cpython-311.pyc
+new file mode 100644
+index 0000000000000000000000000000000000000000..421893857b662bd720fd47bf928f09520474b52a
+GIT binary patch
+literal 3270
+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
+
+literal 0
+HcmV?d00001
+
+diff --git a/client.py b/client.py
+index 3fc09b7..740add5 100644
+--- a/client.py
++++ b/client.py
+@@ -35,14 +35,16 @@ def getDataPoint(quote):
+     stock = quote['stock']
+     bid_price = float(quote['top_bid']['price'])
+     ask_price = float(quote['top_ask']['price'])
+-    price = bid_price
++    price = (bid_price+ask_price)/2
+     return stock, bid_price, ask_price, price
+ 
+ 
+ def getRatio(price_a, price_b):
+     """ Get ratio of price_a and price_b """
+     """ ------------- Update this function ------------- """
+-    return 1
++    if(price_b==0):
++        return
++    return price_a/price_b
+ 
+ 
+ # Main
+@@ -52,8 +54,10 @@ if __name__ == "__main__":
+         quotes = json.loads(urllib.request.urlopen(QUERY.format(random.random())).read())
+ 
+         """ ----------- Update to get the ratio --------------- """
++        prices={}
+         for quote in quotes:
+             stock, bid_price, ask_price, price = getDataPoint(quote)
++            prices[stock]=price
+             print("Quoted %s at (bid:%s, ask:%s, price:%s)" % (stock, bid_price, ask_price, price))
+ 
+-        print("Ratio %s" % getRatio(price, price))
++        print("Ratio %s" % getRatio(prices['ABC'], prices['DEF']))
+diff --git a/clientTest.py b/clientTest.py
+new file mode 100644
+index 0000000..3c156d3
+--- /dev/null
++++ b/clientTest.py
+@@ -0,0 +1,40 @@
++import unittest
++from client import getDataPoint, getRatio
++
++class ClientTest(unittest.TestCase):
++    def test_getDataPoint_calculatePrice(self):
++        quotes = [
++            {'top_ask': {'price': 121.2, 'size': 36}, 'timestamp': '2019-02-11 22:06:30.572453',
++             'top_bid': {'price': 120.48, 'size': 109}, 'id': '0.109974697771', 'stock': 'ABC'},
++            {'top_ask': {'price': 121.68, 'size': 4}, 'timestamp': '2019-02-11 22:06:30.572453',
++             'top_bid': {'price': 117.87, 'size': 81}, 'id': '0.109974697771', 'stock': 'DEF'}
++        ]
++
++        for quote in quotes:
++            self.assertEqual(getDataPoint(quote), (quote['stock'], quote['top_bid']['price'], quote['top_ask']['price'],
++                                                   (quote['top_bid']['price'] + quote['top_ask']['price']) / 2))
++
++    def test_getDataPoint_calculatePriceBidGreaterThanAsk(self):
++        quotes = [
++            {'top_ask': {'price': 119.2, 'size': 36}, 'timestamp': '2019-02-11 22:06:30.572453',
++             'top_bid': {'price': 120.48, 'size': 109}, 'id': '0.109974697771', 'stock': 'ABC'},
++            {'top_ask': {'price': 121.68, 'size': 4}, 'timestamp': '2019-02-11 22:06:30.572453',
++             'top_bid': {'price': 117.87, 'size': 81}, 'id': '0.109974697771', 'stock': 'DEF'}
++        ]
++        """ ------------ Add the assertion below ------------ """
++        for quote in quotes:
++            self.assertEqual(getDataPoint(quote), (quote['stock'], quote['top_bid']['price'], quote['top_ask']['price'],
++                                                   (quote['top_bid']['price'] + quote['top_ask']['price']) / 2))
++
++    # TESTCASE FOR getRatio FUNCTION
++    def test_getRatio(self):
++        prices = [121.2, 121.68, 119.2, 121.68, 117.7, 119.1, 120.09, 118.8, 120.45, 145.56, 0, 34.4]
++        for i in range(0, len(prices), 2):
++            self.assertEqual((prices[i] / prices[i + 1]), getRatio(prices[i], prices[i + 1]))
++
++    # TEST TO CHECK getRatio FUNCTION IF IT RETURNS A NULL VALUE WHEN DIVIDED BY ZERO
++    def test_getRatio_zeroDivisionError(self):
++        self.assertEqual(None, getRatio(121.1, 0))
++
++    if __name__ == '__main__':
++        unittest.main()
+\ No newline at end of file
+-- 
+2.33.0.windows.2
+
